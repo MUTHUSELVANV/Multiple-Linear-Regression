@@ -28,14 +28,13 @@ Similar to simple linear regression, here also we are predicting the target vari
   Later, we fit the object on the scaled feature training dataset and target training dataset.
   
 - 3rd JAR: **Model** -
-  We arrive at a mathematical formula containing features and target from the calculated parameters.
+  We derive a mathematical formula containing features and target from the calculated parameters.
   
 - 4th JAR: **Loss** - 
-  We are calculating Mean Squared Error on test data to numerically understand how well the model works.
+  We are calculating Mean Squared Error on test data to understand how well the model works numerically.
   
 - 5th JAR: **Learning** -
-  Generally, to find the best parameters which could fit the model, the ML algorithm performs a method called gradient descent.
-  This Jar has been performed in the 3rd Jar itself. So, there is no specific code to perform gradient descent.
+  Generally, to find the best parameters which could fit the model, the ML algorithm performs a method called gradient descent. This is an optimization algorithm that has been performed in the 3rd Jar itself when we derived the model. So, there is no specific code to perform gradient descent.
   
 - 6th JAR: **Evaluation Metric** -
    We are calculating an evaluation metric called r-squared which shows how well the data fit the regression model (the goodness of fit).
