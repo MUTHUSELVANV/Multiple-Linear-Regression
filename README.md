@@ -3,7 +3,7 @@ The ML algorithm allows to predict petrol consumption based on multiple features
 
 Similar to simple linear regression, here also we are predicting the target variable but it has more than one feature unlike simple linear regression. The features in this model are Petrol_tax, Average_income, Paved_Highways and Population_Driver_licence(%). This model also covers all 6 jars of ML algorithm.
 
-- 1st JAR: Data - 
+- 1st JAR: **Data** - 
   - Data Cleaning:
     - Import Data
     - Check for any outliers (iqr method) in each feature and perform clipping the feature between upper and lower threshold in case of outliers
@@ -21,19 +21,19 @@ Similar to simple linear regression, here also we are predicting the target vari
   - Scaling: 
     We scale the both the features in training and test dataset, need not scale the target dataset.
    
-- 2nd JAR: Task - 
+- 2nd JAR: **Task** - 
   Linear Regression comes under Supervised learning since we are predicting a target.
   From sklearn library, under linear_model module, we are importing LinearRegression
   Then we are assigning an object to LinearRegression
   Later, we fit the object on the scaled feature training dataset and target training dataset
-- 3rd JAR: Model -
+- 3rd JAR: **Model** -
   We arrive at a mathematical formula containing features and target from the calculated parameters 
-- 4th JAR: Loss - 
+- 4th JAR: **Loss** - 
   We are calculating Mean Squared Error on test data to numerically understand how well the model works.
-- 5th JAR: Learning -
+- 5th JAR: **Learning** -
   Generally, to find the best parameters which could fit the model, ML algorithm performs a method called gradient descend.
   This Jar has been performed in the 3rd Jar itself. So, there is no specific code to perform gradient descent.
-- 6th JAR: Evaluation Metric -
+- 6th JAR: **Evaluation Metric** -
    We are calculating an evaluation metric called r-squared which shows how well the data fit the regression model (the goodness of fit).
 
 Note: We can perform feature selection to eliminate features if there are very high number of features. It works in such a way that it eliminates features that has very less impact on the target variable.
