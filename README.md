@@ -8,7 +8,7 @@ Similar to simple linear regression, here also we are predicting the target vari
     - Import Data
     - Check for any outliers (iqr method) in each feature and perform clipping the feature between upper and lower threshold in case of outliers
     - Check for missing value, check for data type of each column of dataframe
-    - Check for Linear Relationship between each Feature and Target. In case there is not a linear relationship between any feature and target, we try all transformation to achieve linear relationship. The transformation performed are x^2, x^3, x^0.5, e^x and log(x). Still unable to get a linear relation, we delete the feature from the dataset.
+    - Check for Linear Relationship between each Feature and Target. In case there is not a linear relationship between any feature and target, we try all transformation to achieve linear relationship. The transformation performed are x<sup>2</sup>, x<sup>3</sup>, x<sup>0.5</sup>, e<sup>x</sup> and log(x). Still unable to get a linear relation, we delete the feature from the dataset.
     - Checking for duplicates in the Dataset
   - Splitting:
     Split all the features and target dataset into two: Train Data & Test Data
